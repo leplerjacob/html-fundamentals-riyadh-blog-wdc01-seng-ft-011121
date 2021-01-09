@@ -21,7 +21,13 @@
       <p>Riyadh</p>
       <p>The city is divided into 15 municipal districts</p>
       <img src="./images/transportation/camels-in-truck.jpg" alt="camels-in-truck" title="camels image">
+      <img src="./images/garden.jpg" alt="garden" title="garden image">
+      <img src="./images/transportation/transit.jpg" alt="transit" title="transit image">
     </div>
   </div>
 </body>
 </html>
+
+/images/transportation/transit.jpg")
+        expect(images[1].attributes["src"].value).to eq("./images/garden.jpg")
+        expect(images[2].attributes["src"].value).to eq("./images/transportation/camels-in-truck.jpg")
